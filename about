@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>About | WebProfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 简单复制你首页里的一些样式，后面可以整理成单独 CSS -->
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #f5f5f7;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+        }
+        nav {
+            position: fixed;
+            top: 0; left: 0; width: 100%;
+            padding: 20px 40px;
+            display: flex; justify-content: space-between; align-items: center;
+            z-index: 100;
+        }
+        .nav-links a { color: #fff; text-decoration: none; margin-left: 30px; font-size: 12px; opacity: 0.7; }
+        .nav-links a:hover { opacity: 1; }
+
+        main {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 24px 40px;
+        }
+        .about-wrapper {
+            max-width: 800px;
+            text-align: center;
+        }
+        h1 { font-size: 48px; margin-bottom: 20px; }
+        p  { font-size: 18px; line-height: 1.7; color: #ccc; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div style="font-weight: 600; letter-spacing: -0.5px;"> Profile</div>
+        <div class="nav-links">
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="about-wrapper">
+            <h1>About Me</h1>
+            <p>
+                这里是你的 About 页面。<br>
+                你可以写：你是谁、做什么、擅长什么、现在在探索什么方向等等。
+            </p>
+        </div>
+    </main>
+</body>
+</html>
